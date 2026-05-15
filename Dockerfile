@@ -1,10 +1,10 @@
 FROM nginx:1.27-alpine
 
-ARG APP_VERSION=0.0.0
 ARG VCS_REF=unknown
+ARG APP_VERSION=unknown
 
-LABEL org.opencontainers.image.title="Maintenance Website"
-LABEL org.opencontainers.image.description="Static maintenance website"
+LABEL org.opencontainers.image.title="MaintenanceWebsite"
+LABEL org.opencontainers.image.description="❌ A simple HTML/CSS/JS maintenance website. "
 LABEL org.opencontainers.image.version="${APP_VERSION}"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
 LABEL org.opencontainers.image.source="https://github.com/Lechner-Systems/MaintenanceWebsite"

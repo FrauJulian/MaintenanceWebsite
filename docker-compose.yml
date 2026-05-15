@@ -1,13 +1,7 @@
 services:
-  portfolio:
+  maintenance:
     image: docker.lechner-systems.at/lechnersystems/maintenance:${IMAGE_TAG:-latest}
-    build:
-      context: .
-      dockerfile: Dockerfile
     restart: unless-stopped
-    env_file:
-      - path: .env
-        required: false
     dns:
       - 192.168.100.2
       - 192.168.100.6
