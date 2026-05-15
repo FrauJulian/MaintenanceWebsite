@@ -5,6 +5,7 @@ ARG APP_VERSION=unknown
 
 LABEL org.opencontainers.image.title="MaintenanceWebsite"
 LABEL org.opencontainers.image.description="❌ A simple HTML/CSS/JS maintenance website. "
+LABEL org.opencontainers.image.licenses="GPL-3.0-only"
 LABEL org.opencontainers.image.version="${APP_VERSION}"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
 LABEL org.opencontainers.image.source="https://github.com/Lechner-Systems/MaintenanceWebsite"
