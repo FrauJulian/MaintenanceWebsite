@@ -2,8 +2,8 @@
 .git
 .gitignore
 
-# GitHub metadata and local CI files
-.github
+# Gitea metadata and local CI files
+.gitea
 
 # IDE/editor files
 .idea
