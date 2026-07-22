@@ -8,7 +8,7 @@ LABEL org.opencontainers.image.description="❌ A simple HTML/CSS/JS maintenance
 LABEL org.opencontainers.image.licenses="GPL-3.0-only"
 LABEL org.opencontainers.image.version="${APP_VERSION}"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
-LABEL org.opencontainers.image.source="https://git.lechner-systems.at/Lechner-Systems/MaintenanceWebsite"
+LABEL org.opencontainers.image.source="https://git.lechner-systems.at/fraujulian/MaintenanceWebsite"
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY index.html /usr/share/nginx/html/index.html
